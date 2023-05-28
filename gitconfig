@@ -60,5 +60,10 @@
 [init]
   defaultBranch = master
 [user]
-	email = alejandroleon1124@gmail.com
-	name = alejandro leon
+	email = 79841123+Alexleon2411@users.noreply.github.com
+	name = Alejandro Leon
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
