@@ -56,7 +56,6 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
     "notebook.diff.ignoreMetadata": true,
     "notebook.lineNumbers": "on",
     "notebook.markup.fontSize": 13,
@@ -86,4 +85,5 @@
     "workbench.panel.defaultLocation": "right",
     "files.autoSave": "afterDelay",
     "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false,
 }

@@ -1,4 +1,5 @@
-Host *
+Host github.com
+  ForwardAgent yes
   UseKeychain yes
   AddKeysToAgent yes
   IdentityFile ~/.ssh/id_ed25519

@@ -61,7 +61,7 @@
   defaultBranch = master
 [user]
 	email = alejandroleon1124@gmail.com
-	name = alejandr leon
+	name = alejandro leon
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
